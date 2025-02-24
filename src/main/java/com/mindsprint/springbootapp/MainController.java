@@ -11,4 +11,8 @@ public class MainController {
     public String getHello(){
         return "Hello World";
     }
+    @RequestMapping(value = "/api/message",method = RequestMethod.GET)
+    public String getHello(){
+        return "Jenkins completed Successfully";
+    }
 }
